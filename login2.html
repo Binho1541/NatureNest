@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naturenest Company - Green Living</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="nest.jpg" alt="Naturenest Company Logo">
+            <h1>NATURENEST COMPANY</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index2.html">HOME</a></li>
+                <li><a href="products.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="login2.html">LOGIN</a></li>
+                <li><a href="feedback.html">FEEDBACK</a></li>
+        </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button>Search</button>
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <!-- Login Form -->
+            <div id="login-section">
+                <h2 class="log">LOGIN</h2>
+                <form id="login-form">
+                    <label for="login-email">Email:</label>
+                    <input type="email" id="login-email" required>
+
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" required>
+
+                    <button type="submit">Login</button>
+                </form>
+                <p>Don't have an account? <a href="#" onclick="showRegister()">Create Account</a></p>
+            </div>
+
+            <!-- Registration Form -->
+            <div id="register-section" style="display: none;">
+                <h2>Create an Account</h2>
+                <form id="register-form">
+                    <label for="register-name">Full Name:</label>
+                    <input type="text" id="register-name" required>
+
+                    <label for="register-email">Email:</label>
+                    <input type="email" id="register-email" required>
+
+                    <label for="register-password">Password:</label>
+                    <input type="password" id="register-password" required>
+
+                    <button type="submit">Register</button>
+                </form>
+                <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-details">
+            <p>Contact Us:+233556748564 / +233209095970 </p>
+            <p>Address:1st Mensah Wood St,East Legon,Accra-Ghana </p>
+            <p>Email: support@NatureNest.com</p>
+            <p><a href="index2.html">About Us</a></p>
+            <p>
+              Follow Us
+              <ul>
+                <li>Facebook:NatureNest</li>
+                <li>Instgram:NatureNest_Gh</li>
+                <li>X:Nature_Nest</li>
+              </ul>
+            </p>
+            <p class="copy">&copy; 2025 NatureNest. All Rights Reserved.</p>
+          </div>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        </div>
+      </footer>
+
+    <script src="auth.js"></script>
+</body>
+</html>
